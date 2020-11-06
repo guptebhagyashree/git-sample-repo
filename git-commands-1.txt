@@ -1,22 +1,34 @@
 ---------------------------------------------------Git Commands---------------------------------------------------
 
+
 git status 							-> prints the status of the Git Repository
+
 
 git init 							-> initializes the Git Repository
 
+
 git config --global user.name "Let's Kode It"			-> specify username globally
+
 git config --global user.email letskodeit@gmail.com
 		-> specify email globally
+
 git config user.name "Let's Kode It"				-> specify username for particular repository
+
 git config user.email letskodeit@gmail.com			-> 
 specify email for particular repository
+
 git add
 								-> add file to staging environment
+
 git commit -m ""						-> commit file to local git repository
+
 git log
 								-> check file log history
+
 git diff <filename>						-> check changes made to file with existing file
+
 git remote add origin <GitHub Repository URL>			-> establish connection to the remote Github repository
+
 git push origin main						-> push to main branch
 
 ------------------------------------------------------------------------------------------------------------------
@@ -40,6 +52,49 @@ git push origin main						-> push to main branch
 
 
 
+Scenario 1:
+
+First Release -> Done
+
+Second Release
+	
+	2 Features
+	
+	2 People
+
+Third Release:
+	
+	1 Feature
+	
+	1 Person
+
+
+
+
+Scenario 2:
+
+Two People
+
+Person A -> Enhance the framework
+
+Person B -> Automating test cases
+
+testMethod1 -> getName()
+
+Person A -> Merge code to main
+
+Person B -> Pull from main to private branch, merge code to main
+
+
+
+Scenario 3:
+
+1 Person -> Two different features
+
+
+
+
+
 
 
 
@@ -58,3 +113,19 @@ git push origin main						-> push to main branch
 			PrivateBranch2-------------------------------------------------------------------
 
 *
+=======
+git status						-> Prints the status of the Git Repository
+git init						-> Initializes the Git Repository
+git config --global user.name "Let's Kode It"		-> Specify username globally
+git config --global user.email letskodeit@gmail.com	-> Specify email globally
+git config user.name "Let's Kode It"			-> Specify username for particular repository
+git config user.email letskodeit@gmail.com		-> Specify email for particular repository
+git add							-> Add file to staging environment
+git commit -m ""					-> Commit file to local Git repository
+git log							-> Check file log history
+git diff <filename>					-> Check changes made to file with existing file
+git remote add origin <GitHub Repository URL>		-> Establish connection to the remote Github repository
+git push origin main					-> Push to main branch
+
+------------------------------------------------------------------------------------------------------------------
+
