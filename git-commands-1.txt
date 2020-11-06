@@ -1,10 +1,38 @@
-git status -> prints the status of the Git Repository
-git init -> initializes the Git Repository
-git config --global user.name "Let's Kode It"
-git config --global user.email letskodeit@gmail.com
-git config user.name "Let's Kode It"
-git config user.email letskodeit@gmail.com
-git add
-git commit -m ""
-git log
-Git diff <filename>
+---------------------------------------------------Git Commands---------------------------------------------------
+
+git status						-> Prints the status of the Git Repository
+git init						-> Initializes the Git Repository
+git config --global user.name "Let's Kode It"		-> Specify username globally
+git config --global user.email letskodeit@gmail.com	-> Specify email globally
+git config user.name "Let's Kode It"			-> Specify username for particular repository
+git config user.email letskodeit@gmail.com		-> Specify email for particular repository
+git add							-> Add file to staging environment
+git commit -m ""					-> Commit file to local Git repository
+git log							-> Check file log history
+git diff <filename>					-> Check changes made to file with existing file
+git remote add origin <GitHub Repository URL>		-> Establish connection to the remote Github repository
+git push origin main					-> Push to main branch
+
+------------------------------------------------------------------------------------------------------------------
+
+Scenario 1:
+First Release -> Done
+Second Release
+	2 Features
+	2 People
+Third Release:
+	1 Feature
+	1 Person
+
+
+Scenario 2:
+Two People
+Person A -> Enhance the framework
+Person B -> Automating test cases
+testMethod1 -> getName()
+Person A -> Merge code to main
+Person B -> Pull from main to private branch, merge code to main
+
+Scenario 3:
+1 Person -> Two different features
+Work on different branches
